@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disappearing Ninja</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        var HTMLstring = "";
+        for (var i = 0; i < 8; i++) {
+            HTMLstring += '<img src="mini_ninja.jpg" alt="mini_ninja_picture">'
+        }
+        HTMLstring += '<button>Restore</button>'
+        $(document).ready(function () {
+            $(".container").append(HTMLstring)
+            $("img").click(function () {
+                $(this).hide("slow");
+            })
+            $("button").click(function () {
+                $("img").show();
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <div class="container">
+    </div>
+</body>
+
+</html>
