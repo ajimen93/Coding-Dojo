@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    width: 1000px;
+    background-color: white;
+}
+#main-menu{
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+#main-menu img{
+    height: 60px;
+    width: 60px;
+}
+#main-menu ul{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+}
+#main-menu a{
+    color: black;
+    text-decoration: none;
+}
+.main img{
+    width: 100%;
+}
+.secondary-menu ul{
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 20px;
+    background-color: rgb(56, 55, 55);
+    height: 40px;
+}
+.secondary-menu a{
+    text-decoration: none;
+    color: lightblue;
+}
+.link-white{
+    color: white;
+}
+#store-link{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-color: rgb(240, 237, 237);
+}
+#store-link p{
+    font-size: 40px;
+    color: silver;
+}
+#store-link button{
+    padding: 10px 90px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(36, 121, 150);
+    font-size: 18px;
+}
+#features{
+    padding: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-style: solid;
+    border-color: rgb(240, 237, 237);
+}
+.features-section{
+    width: 25%;
+}
+.features-section img{
+    width: 15%;
+}
+
+.features-section h2{
+    display: inline-block;
+}
+.features-section p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    min-height: 50px;
+    font-size: 16px;
+}
+.main-icon{
+    width: 500%;
+}
+.features-section button{
+    padding: 10px 50px;
+    background-color: powderblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#useful-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#useful-links ul{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 90%;
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+}
+#useful-links a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+#useful-links ul li ul{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 30px;
+}
+#footer{
+    display: flex;
+    justify-content: start;
+}
+#footer ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
