@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    height: 1100px;
+    width: 1500px;
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+}
+#header{
+    height: 150px;
+    width: auto;
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    padding: 10px;
+}
+.number{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+#homebar{
+    width: 1500px;
+}
+#homebar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0px 10px 10px; 
+    overflow: hidden;
+    background-color: rgb(48, 48, 48);
+}
+#homebar li{
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 40px 10px;
+    border-right: 2px solid white;
+}
+#homebar a{
+    color: grey;
+    font-weight: bold;
+    font-size: 16px;
+}
+#main{
+    height: 500px;
+    width: 1500px;
+    background-color: black;
+}
+#main img{
+    height: 500px;
+    width: 1500px;
+}
+#body1{
+    height: 200px;
+    width: auto;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#body1 h2{
+    color: orange;
+    display: flex;
+    justify-content: space-around;
+}
+#body1 p{
+    color: white;
+}
+#body1 img{
+    vertical-align: top;
+}
+#body2{
+    height: 200px;
+    width: 1500px;
+    background-color: black;
+}
+.advertisement{
+    width: 600px;
+    display: inline-block;
+    margin-right: 50px;
+}
+#body2 button{
+    background-color: orange;
+    text-decoration-color: white;
+    width: 200px;
+    height: 60px;
+    display: inline-block;
+}
+#body2 h2{
+    color: white;
+    font-size: 36px;
+}
+#body2 p{
+    color: white;
+    font-size: 24px;
+}
+.header2{
+    height: 40px;
+    width: 1510px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.header2 h2{
+    color: white;
+    font-size: 36px;
+}
+#base{
+    height: 500px;
+    width: 1490px;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+#base img{
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: grey;
+}
+#base h2{
+    color: orange;
+}
+#base p{
+    color: white;
+}
